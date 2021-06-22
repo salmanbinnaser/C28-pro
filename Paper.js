@@ -7,7 +7,7 @@ class Paper{
             density :1.2
             
         }
-        this.body = Bodies.circle(250,540,20,options);
+        this.body = Bodies.circle(100,465,20,options);
         this.width =33;
         this.image = loadImage("Images/paper.png");
         World.add(world, this.body);
