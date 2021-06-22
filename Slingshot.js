@@ -1,4 +1,4 @@
-class Slinshot{
+class Slingshot{
     constructor(bodyA, pointB){
         var options = {
             bodyA: bodyA,
@@ -7,16 +7,16 @@ class Slinshot{
             length: 10
         }
         this.pointB=pointB;
-        this.Slinshot = Constraint.create(options);
-        World.add(world, this.Slinshot);
+        this.Slingshot = Constraint.create(options);
+        World.add(world, this.Slingshot);
     }
 
     fly(){
-        this.Slinshot.bodyA=null;
+        this.Slingshot.bodyA=null;
     }
 
     Launch(bodyA){
-        this.Slinshot.bodyA=bodyA;
+        this.Slingshot.bodyA=bodyA;
     }
 
     display(){
